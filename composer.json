@@ -1,0 +1,27 @@
+{
+    "name": "lswl/sms",
+    "description": "Make SMS sending easier.",
+    "keywords": [
+        "lswl",
+        "sms",
+        "easy-sms"
+    ],
+    "homepage": "https://linshaowl.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linshaowl",
+            "email": "linshaowl@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lswl\\Sms\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|8.0",
+        "ext-json": "*",
+        "overtrue/easy-sms": "^1.0"
+    }
+}
